@@ -10,6 +10,8 @@ The problem is that this data is often tightly bound to the local host environme
 
 `codex-session-transfer` was developed to reduce that migration friction. It packages the minimum working set needed for session portability, localizes machine-specific paths on the destination side, and preserves enough supporting state to let imported sessions appear, open, and keep working inside Codex Desktop.
 
+This kind of capability becomes increasingly useful in several practical scenarios: collaborative teams that want to hand off AI-assisted work across different machines, individual users who want to consolidate long-running AI session histories, hardware refresh or workstation replacement, reproducible research and engineering workflows, and broader forms of context migration where the value lies not just in files, but in the preserved decision trail around those files.
+
 ## What It Does
 
 - Package the first-phase minimum working set for selected Codex sessions
