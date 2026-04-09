@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Session Transfer"
+  short_description: "Transfer or re-home Codex session histories"
+  default_prompt: "Use $codex-session-transfer to import, clone, or re-home a local Codex session safely."
